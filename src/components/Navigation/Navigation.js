@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className="mt-10 mb-6 flex justify-center items-center">
       <h1 className="inline text-4xl font-black text-zinc-900  text-center">
-        Fitness Hub
+        Fitness is All
       </h1>
       <svg
         className="inline w-10 h-10 text-purple-500"
