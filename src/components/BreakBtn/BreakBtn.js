@@ -5,7 +5,7 @@ const BreakBtn = ({ time, handleBreakBtnClick }) => {
     <div>
       <button
         onClick={() => handleBreakBtnClick(time)}
-        className="p-2 rounded-lg text-white bg-purple-600"
+        className="py-2 px-3 rounded-xl text-white bg-blue-600"
       >
         {time}
       </button>

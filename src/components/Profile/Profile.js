@@ -4,6 +4,7 @@ import BreakBtn from '../BreakBtn/BreakBtn';
 import image from './img.jpg';
 import { addToLocalStorage, getStoredObj } from '../Utilities/dbController';
 import { useEffect } from 'react';
+import './Profile.css'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -31,7 +32,7 @@ const Profile = ({ exerciseTime }) => {
     <div className="bg-blue-300 px-4 pb-10 rounded-xl shadow-2xl ">
       <div>
         <div className="flex space-x-5 mt-10 pt-10">
-          <img className="w-14 h-14 rounded-full" src={image} alt="" />
+          <img className="width rounded-full" src={image} alt="" />
           <div className="text-left">
             <h3 className="text-lg font-semibold">Saifur Rahman</h3>
             <p>
@@ -41,7 +42,7 @@ const Profile = ({ exerciseTime }) => {
         </div>
 
         {/* info */}
-        <div className=" flex space-x-10 mt-8 p-2 bg-slate-200 rounded-2xl">
+        <div className=" flex space-x-10 mt-8 py-2 px-4 bg-slate-200 rounded-2xl">
           <p>
             <span className="font-bold">76 KG</span> <br />
             weight
@@ -61,7 +62,7 @@ const Profile = ({ exerciseTime }) => {
           <h4 className="text-left text-lg font-medium mb-1 text-zinc-600">
             Add a break
           </h4>
-          <div className="flex space-x-5 bg-slate-200 rounded-2xl p-2">
+          <div className="flex space-x-3 bg-slate-200 rounded-2xl p-2">
             {breakTimeArray.map(time => (
               <BreakBtn
                 key={time}
@@ -87,7 +88,7 @@ const Profile = ({ exerciseTime }) => {
 
         <button
           onClick={notify}
-          className="bg-purple-700 py-3 w-full mt-5 rounded-xl text-white font-bold"
+          className="bg-blue-700 py-3 w-full mt-5 rounded-md text-white font-bold"
         >
           Activity Completed
         </button>
