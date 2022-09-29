@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/1200px-Pollock_to_Hussey.jpg",
+    "name": "Cricket",
+    "required_time": 60
+  },
+  {
+    "id": 2,
+    "img": "https://cdn.quedos.com.au/wp-content/uploads/2021/07/pool-game.jpg",
+    "name": "Billiard",
+    "required_time": 120
+  },
+  {
+    "id": 3,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Football_in_Bloomington%2C_Indiana%2C_1996.jpg",
+    "name": "Football",
+    "required_time": 90
+  },
+  {
+    "id": 4,
+    "img": "https://img.olympicchannel.com/images/image/private/t_16-9_3200/primary/d17jzaoruexhkzr8dbl8",
+    "name": "Hockey",
+    "required_time": 20
+  },
+  {
+    "id": 5,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDrdnyQRhISLOio5mKWbu48QXoiiF4mabd5Q&usqp=CAU",
+    "name": "Rugby",
+    "required_time": 20
+  },
+  {
+    "id": 6,
+    "img": "https://volleycountry.com/wp-content/uploads/2020/09/volleyball-ball.jpg",
+    "name": "Volleyball",
+    "required_time": 15
+  }
+]

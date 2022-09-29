@@ -1,0 +1,8 @@
+.qna-container{
+    margin: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgba(255, 218, 169, 0.597);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(244, 147, 20);
+}
