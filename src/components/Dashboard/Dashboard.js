@@ -25,7 +25,7 @@ const Dashboard = () => {
         <div className="w-10/12 md:w-8/12 mx-auto mb-10">
           <Navigation />
           <h3 className="text-left text-lg font-semibold text-zinc-600">
-            Select Today's Exercises
+            Choose Your Best Play/Exercise:
           </h3>
         </div>
 
