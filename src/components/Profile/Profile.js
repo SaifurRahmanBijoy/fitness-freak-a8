@@ -28,7 +28,7 @@ const Profile = ({ exerciseTime }) => {
   }, [breakTime]);
 
   return (
-    <div className="bg-yellow-100 px-10 pb-10 rounded-xl shadow-2xl ">
+    <div className="bg-blue-300 px-4 pb-10 rounded-xl shadow-2xl ">
       <div>
         <div className="flex space-x-5 mt-10 pt-10">
           <img className="w-14 h-14 rounded-full" src={image} alt="" />

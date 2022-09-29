@@ -5,7 +5,7 @@ const Card = ({ sport, handleBtnClick, msg }) => {
   const { img, name, required_time } = sport;
 
   return (
-    <div className="shadow-2xl bg-yellow-100 p-2 rounded">
+    <div className="shadow-2xl bg-blue-200 p-2 rounded">
       <div>
         <div className="p-5">
           <img className="hover:scale-125 duration-200" src={img} alt="" />
