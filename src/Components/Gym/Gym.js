@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Calc from "../Calc/Calc";
 import Sport from "../Sport/Sport";
 import "./Gym.css";
 
@@ -24,8 +25,7 @@ const Gym = () => {
           </div>
         </div>
         <div className="calc-container">
-          {/* <Cart cart={cart}></Cart> */}
-          <h2>Calculate</h2>
+          <Calc></Calc>
         </div>
       </div>
     </div>
