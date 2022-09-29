@@ -5,7 +5,7 @@ const Card = ({ sport, handleBtnClick, msg }) => {
   const { img, name, required_time } = sport;
 
   return (
-    <div className="shadow-2xl bg-blue-200 p-2 rounded">
+    <div className="shadow-2xl bg-blue-200 p-2 rounded parent-of-btn">
       <div>
         <div className="p-5">
           <img className="hover:scale-125 duration-200" src={img} alt="" />
@@ -17,7 +17,7 @@ const Card = ({ sport, handleBtnClick, msg }) => {
           </p>
           <button
             onClick={() => handleBtnClick(sport, true)}
-            className="rounded-xl w-full bg-zinc-700 py-2 px-5 text-white"
+            className="rounded-xl w-full bg-zinc-700 py-2 px-5 text-white btn"
           >
             Add to list
           </button>
