@@ -13,7 +13,7 @@ const Card = ({ sport, handleBtnClick, msg }) => {
         <div className="space-y-2">
           <h4 className="text-xl font-semibold">{name}</h4>
           <p>
-            <small>Time required: {required_time} mins</small>
+            <small>Time required: {required_time} minutes</small>
           </p>
           <button
             onClick={() => handleBtnClick(sport, true)}

@@ -87,7 +87,7 @@ const Profile = ({ exerciseTime }) => {
 
         <button
           onClick={notify}
-          className="bg-purple-500 py-2 w-full mt-5 rounded-xl text-white font-bold"
+          className="bg-purple-700 py-3 w-full mt-5 rounded-xl text-white font-bold"
         >
           Activity Completed
         </button>
